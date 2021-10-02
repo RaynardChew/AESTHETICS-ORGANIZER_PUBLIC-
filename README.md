@@ -2,10 +2,12 @@
 
 ## FEATURES 
 -Switching Content between semester within the same page 
+
 -Aesthetics dropdown-menu using html , css and javascript 
 
 ## EXTRA 
 -all anchor tags are opened in new tab except width class = "current-tab" 
+
 -javascript functions are run within window.onload 
 
 

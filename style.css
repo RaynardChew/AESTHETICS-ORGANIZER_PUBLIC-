@@ -297,6 +297,8 @@ footer > a:hover{
 
 
 @media screen and (max-width: 1290px){ 
+
+
   .quotes{
     display:none;
   }
@@ -304,6 +306,8 @@ footer > a:hover{
   .header{ 
    height:200px;
   }
+
+ 
 
  .header nav ul{ 
   flex-wrap:wrap; 
@@ -327,6 +331,25 @@ footer > a:hover{
   .header{ 
     height:500px;
    }
+
+   .dropdown-menu{ 
+    left: 10px;
+  }
+
+  .menu-grid{
+   grid-template-columns: repeat(2,max-content);
+   grid-template-rows: repeat(2,max-content);
+  }
+}
+
+@media screen and (max-width: 400px){ 
+
+  .dropdown-menu{ 
+    left: -150px;
+    top: -5px;
+  }
+
+
 }
 
 

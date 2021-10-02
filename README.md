@@ -8,13 +8,19 @@
 -all anchor tags are opened in new tab except width class = "current-tab" 
 -javascript functions are run within window.onload 
 
+
+
 window.onload = () => { 
 
 functionA();
+
 functionB();
+
 openInNewTab(); 
 
 } 
+
+
 
 
 function openInNewTab() { 
@@ -24,6 +30,7 @@ function openInNewTab() {
   anchors.forEach((anchor)=> { 
 
     anchor.setAttribute('target','_blank'); 
+    
   });
 
 }

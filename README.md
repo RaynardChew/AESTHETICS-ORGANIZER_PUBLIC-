@@ -5,6 +5,8 @@
 
 -Aesthetics dropdown-menu using html , css and javascript 
 
+-Responsive design for all device using css flex box, grid and media queries 
+
 ## EXTRA 
 -all anchor tags are opened in new tab except width class = "current-tab" 
 

@@ -57,7 +57,7 @@ function displayTimeAndDate()
 
     });
 
-    var date = dateandtime.toLocaleDateString(undefined,
+    var date = dateandtime.toLocaleDateString('en-GB',
         {
             year: 'numeric',
             month:'2-digit',
@@ -111,7 +111,7 @@ function displayTimeAndDate()
             }
         
             document.getElementById('time').innerHTML = time;
-            document.getElementById('date').innerHTML = date + '\xa0\xa0\xa0\xa0\xa0' + '(' + actualday +')' ;
+           document.getElementById('date').innerHTML = date + '\xa0\xa0\xa0\xa0\xa0' + '(' + actualday + ')'; 
         }  
     
 };

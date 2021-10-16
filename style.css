@@ -161,9 +161,10 @@ margin: 2rem 0;
   gap: 1rem; 
   border-radius: 1rem;
   box-shadow: 2px 5px 5px 0 var(--dark)
-}
+} 
 
-.leftside-bar > .leftside-bar-clock { 
+
+ .leftside-bar > .leftside-bar-clock { 
   font-family: 'Orbitron', sans-serif;
   display:flex; 
   flex-direction: column; 
@@ -173,7 +174,7 @@ margin: 2rem 0;
   width: 90%; 
   gap: 1rem;
   border-radius: .3rem; 
-}
+} 
 
 .leftside-bar > .leftside-bar-clock > .time{
     font-size: 2rem; 
@@ -193,12 +194,16 @@ margin: 2rem 0;
 .leftside-bar > .leftside-bar-information > header{ 
   font-size: 1.3rem;
   font-weight: bolder;
- 
   margin-bottom: 1rem; 
 }
 
+
 .leftside-bar > .leftside-bar-information > .test-subject{ 
   border-bottom: 2px dotted black;
+}
+
+.leftside-bar > .leftside-bar-information > .test-subject > p{ 
+  margin: 1rem 0;
 }
 
 .timetable> img{ 
@@ -245,14 +250,14 @@ margin: 2rem 0;
   cursor: url(https://ani.cursors-4u.net/games/gam-16/gam1571.ani), url(https://ani.cursors-4u.net/games/gam-16/gam1571.png), auto !important;
 }
 
-.class-resource-grid{ 
+ .class-resource-grid{ 
   display: grid; 
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem; 
   min-width: 100%;
   
 
-}
+} 
 
 .class-resource-foot{
   align-self: flex-end;
